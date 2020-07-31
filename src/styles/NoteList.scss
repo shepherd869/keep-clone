@@ -1,0 +1,38 @@
+.note-container {
+  height: auto;
+  width: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding-left: 10px;
+
+  .note-list {
+    border: solid rgb(192, 192, 192) 1px;
+    margin: 5px;
+    width: 275px;
+    height: auto;
+    margin-bottom: 5px;
+    word-wrap: break-word;
+    background-color: light grey;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 3px 3px #888888;
+
+    h3 {
+      margin-left: 5px;
+      font-size: 16px;
+    }
+
+    p {
+      margin-left: 10px;
+      font-size: 14px;
+    }
+
+    .delete-btn {
+      cursor: pointer;
+      margin-left: 250px;
+      height: 30px;
+      border: none;
+      background-color: inherit;
+    }
+  }
+}
